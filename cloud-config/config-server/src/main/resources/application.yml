@@ -1,10 +1,10 @@
-spring
+spring:
   application:
     name: config-server
   cloud:
     config:
       server:
         git:
-          uri: https://github.com/tree0122/spring-cloud-learn/tree/master/cloud-config/config-repo
+          uri: https://github.com/tree0122/spring-cloud-conf-repo
 server:
   port: 1201

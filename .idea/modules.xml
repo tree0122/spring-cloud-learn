@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-config/config-client/config-client.iml" filepath="$PROJECT_DIR$/cloud-config/config-client/config-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-config/config-server/config-server.iml" filepath="$PROJECT_DIR$/cloud-config/config-server/config-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/spring-cloud-learn.iml" filepath="$PROJECT_DIR$/.idea/spring-cloud-learn.iml" />
     </modules>
   </component>

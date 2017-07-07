@@ -3,7 +3,8 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-config/config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-config/config-client/pom.xml" />
       </list>
     </option>
   </component>
@@ -23,6 +24,7 @@
       </profile-state>
     </entry>
   </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
   <component name="masterDetails">
     <states>
       <state key="GlobalLibrariesConfigurable.UI">
