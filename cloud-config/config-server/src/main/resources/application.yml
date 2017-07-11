@@ -5,6 +5,8 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/tree0122/spring-cloud-conf-repo
+#          uri: https://github.com/tree0122/spring-cloud-conf-repo
+          uri: https://github.com/tree0122/spring-cloud-learn/
+          search-paths: cloud-config/config-repo
 server:
   port: 1201
