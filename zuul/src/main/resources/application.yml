@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: zuul
+server:
+  port: 4444
+zuul:
+  routes:
+    compute:
+      path: /compute/**
+      serviceId: compute-service
+    user:
+      path: /user/**
+      serviceId: user-service
+      stripPrefix: false
+  sensitive-headers:
+  retryable: true
+management:
+  security:
+    enabled: false
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:1111/eureka/
+ribbon:
+  MaxAutoRetries: 2
+  MaxAutoRetriesNextServer: 0

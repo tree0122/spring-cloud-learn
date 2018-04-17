@@ -19,4 +19,5 @@ public class ConsumerController {
     public Integer add(){
         return computeClient.add(10, 20);
     }
+
 }
