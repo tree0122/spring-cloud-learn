@@ -21,7 +21,7 @@ public interface ComputeClient {
 class ComputeHystrix implements ComputeClient{
 
     @Override
-    public Integer add(@RequestParam(value = "a") Integer a, @RequestParam(value = "b") Integer b) {
+    public Integer add(Integer a, Integer b) {
         return -999;
     }
 }
