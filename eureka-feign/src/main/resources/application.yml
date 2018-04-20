@@ -2,7 +2,9 @@ server:
   port: 3333
 spring:
   application:
-    name: feign-consumer
+    name: euraka-feign
+  zipkin:
+    base-url: http://localhost:4440
 eureka:
   client:
     serviceUrl:
